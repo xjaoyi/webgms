@@ -7,7 +7,6 @@ class IndexController
 {
     public function showIndex(Request $request)
     {
-        echo 'ok';
         $a = $request->get('a', '0');
         dump($a);
     }
